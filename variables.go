@@ -14,4 +14,12 @@ func main() {
 	fmt.Println("Description: \n", description)
 	fmt.Println("Chapter: \n", chapter)
 	fmt.Println("Lesson completed? \n", isCompleted)
+
+	shorthand()
+}
+
+func shorthand() {
+	function := "Shorthand Function"
+
+	fmt.Println("Using", function)
 }

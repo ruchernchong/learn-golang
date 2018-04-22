@@ -3,15 +3,18 @@ package main
 import "fmt"
 
 func main() {
-	lesson()
-}
+	var a = "initial"
+	fmt.Println(a)
 
-func lesson() {
-	title := "Learn Golang"
-	description := "Learning the basics of Golang with me"
-	chapter := 1
+	var b, c int = 1, 2
+	fmt.Println(b, c)
 
-	fmt.Println("Title: \n", title)
-	fmt.Println("Description: \n", description)
-	fmt.Println("Chapter: \n", chapter)
+	var d = true
+	fmt.Println(d)
+
+	var e int
+	fmt.Println(e)
+
+	f := "short"
+	fmt.Println(f)
 }
